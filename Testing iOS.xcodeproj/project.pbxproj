@@ -17,6 +17,8 @@
 		E1CB361D2DD49E0E00FA099E /* Testing_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CB361C2DD49E0E00FA099E /* Testing_iOSTests.swift */; };
 		E1CB36272DD49E0F00FA099E /* Testing_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CB36262DD49E0F00FA099E /* Testing_iOSUITests.swift */; };
 		E1CB36292DD49E0F00FA099E /* Testing_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CB36282DD49E0F00FA099E /* Testing_iOSUITestsLaunchTests.swift */; };
+		E1CB36362DD49E9A00FA099E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CB36352DD49E9A00FA099E /* User.swift */; };
+		E1CB363A2DD4A69A00FA099E /* Testing iOSTests in Resources */ = {isa = PBXBuildFile; fileRef = E1CB36392DD4A69A00FA099E /* Testing iOSTests */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		E1CB36222DD49E0F00FA099E /* Testing iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Testing iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1CB36262DD49E0F00FA099E /* Testing_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testing_iOSUITests.swift; sourceTree = "<group>"; };
 		E1CB36282DD49E0F00FA099E /* Testing_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testing_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E1CB36352DD49E9A00FA099E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E1CB36392DD4A69A00FA099E /* Testing iOSTests */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Testing iOSTests"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,7 @@
 				E1CB36102DD49E0E00FA099E /* LaunchScreen.storyboard */,
 				E1CB36132DD49E0E00FA099E /* Info.plist */,
 				E1CB360B2DD49E0D00FA099E /* Testing_iOS.xcdatamodeld */,
+				E1CB36352DD49E9A00FA099E /* User.swift */,
 			);
 			path = "Testing iOS";
 			sourceTree = "<group>";
@@ -117,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				E1CB361C2DD49E0E00FA099E /* Testing_iOSTests.swift */,
+				E1CB36392DD4A69A00FA099E /* Testing iOSTests */,
 			);
 			path = "Testing iOSTests";
 			sourceTree = "<group>";
@@ -244,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1CB363A2DD4A69A00FA099E /* Testing iOSTests in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +271,7 @@
 				E1CB360D2DD49E0D00FA099E /* Testing_iOS.xcdatamodeld in Sources */,
 				E1CB36072DD49E0D00FA099E /* ViewController.swift in Sources */,
 				E1CB36032DD49E0D00FA099E /* AppDelegate.swift in Sources */,
+				E1CB36362DD49E9A00FA099E /* User.swift in Sources */,
 				E1CB36052DD49E0D00FA099E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
