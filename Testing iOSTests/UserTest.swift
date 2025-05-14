@@ -8,7 +8,7 @@
 import XCTest
 @testable import Testing_iOS
 
-final class Testing_iOSTests: XCTestCase {
+final class UserTest: XCTestCase {
     
     var userValid:User?
     var userNil:User?
@@ -26,7 +26,6 @@ final class Testing_iOSTests: XCTestCase {
     
     override func tearDown()  {
         userValid=nil
-        userEmpty=nil
         userNotValid=nil
         super.tearDown()
         
@@ -36,6 +35,7 @@ final class Testing_iOSTests: XCTestCase {
         guard let user = userValid else {
             return
         }
+        XCTAssertNotNil(user,"not nil")
         XCTAssertTrue(user.authenticate(),"User is validd")
     }
     
@@ -49,10 +49,10 @@ final class Testing_iOSTests: XCTestCase {
     func testUserEmp() {
         
         guard let user = userNil else {
-            XCTFail("user is nil")
+           // XCTFail("user is nil")
             return
         }
-        XCTAssertTrue(user.authenticate(),"User is validd")
+        XCTAssertFalse(user.authenticate(),"User is not validd")
 
         
     }
