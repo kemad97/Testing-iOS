@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E10DBC962DD5F5C0002CBA52 /* FakeNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10DBC952DD5F5C0002CBA52 /* FakeNetwork.swift */; };
+		E10DBC982DD5F6FE002CBA52 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10DBC972DD5F6FE002CBA52 /* News.swift */; };
+		E10DBC9A2DD5F703002CBA52 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10DBC992DD5F703002CBA52 /* NetworkService.swift */; };
+		E10DBC9C2DD5F770002CBA52 /* MockNetworkManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10DBC9B2DD5F770002CBA52 /* MockNetworkManger.swift */; };
 		E1CB36032DD49E0D00FA099E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CB36022DD49E0D00FA099E /* AppDelegate.swift */; };
 		E1CB36052DD49E0D00FA099E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CB36042DD49E0D00FA099E /* SceneDelegate.swift */; };
 		E1CB36072DD49E0D00FA099E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CB36062DD49E0D00FA099E /* ViewController.swift */; };
@@ -37,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E10DBC952DD5F5C0002CBA52 /* FakeNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeNetwork.swift; sourceTree = "<group>"; };
+		E10DBC972DD5F6FE002CBA52 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		E10DBC992DD5F703002CBA52 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		E10DBC9B2DD5F770002CBA52 /* MockNetworkManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkManger.swift; sourceTree = "<group>"; };
 		E1CB35FF2DD49E0D00FA099E /* Testing iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Testing iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1CB36022DD49E0D00FA099E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1CB36042DD49E0D00FA099E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E10DBC942DD5F562002CBA52 /* Mokking */ = {
+			isa = PBXGroup;
+			children = (
+				E10DBC952DD5F5C0002CBA52 /* FakeNetwork.swift */,
+				E10DBC9B2DD5F770002CBA52 /* MockNetworkManger.swift */,
+			);
+			path = Mokking;
+			sourceTree = "<group>";
+		};
 		E1CB35F62DD49E0D00FA099E = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +118,8 @@
 		E1CB36012DD49E0D00FA099E /* Testing iOS */ = {
 			isa = PBXGroup;
 			children = (
+				E10DBC972DD5F6FE002CBA52 /* News.swift */,
+				E10DBC992DD5F703002CBA52 /* NetworkService.swift */,
 				E1CB36022DD49E0D00FA099E /* AppDelegate.swift */,
 				E1CB36042DD49E0D00FA099E /* SceneDelegate.swift */,
 				E1CB36062DD49E0D00FA099E /* ViewController.swift */,
@@ -116,6 +135,7 @@
 		E1CB361B2DD49E0E00FA099E /* Testing iOSTests */ = {
 			isa = PBXGroup;
 			children = (
+				E10DBC942DD5F562002CBA52 /* Mokking */,
 				E1CB361C2DD49E0E00FA099E /* Testing_iOSTests.swift */,
 			);
 			path = "Testing iOSTests";
@@ -264,6 +284,8 @@
 				E1CB360D2DD49E0D00FA099E /* Testing_iOS.xcdatamodeld in Sources */,
 				E1CB36072DD49E0D00FA099E /* ViewController.swift in Sources */,
 				E1CB36032DD49E0D00FA099E /* AppDelegate.swift in Sources */,
+				E10DBC982DD5F6FE002CBA52 /* News.swift in Sources */,
+				E10DBC9A2DD5F703002CBA52 /* NetworkService.swift in Sources */,
 				E1CB36052DD49E0D00FA099E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +295,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1CB361D2DD49E0E00FA099E /* Testing_iOSTests.swift in Sources */,
+				E10DBC962DD5F5C0002CBA52 /* FakeNetwork.swift in Sources */,
+				E10DBC9C2DD5F770002CBA52 /* MockNetworkManger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
